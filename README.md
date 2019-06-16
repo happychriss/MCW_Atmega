@@ -1,5 +1,5 @@
-# My Watch
-# This version will be used for building the PCB!
+# MCW - The Most Complicate Watch
+
 
 ### "Why going easy - if it can be more difficult???"
 
@@ -11,11 +11,14 @@ The e-Ink display is 2.7 inch E-paper Display from Embedded Artist.
 
 Its controlled by the very precise clock DS3232RTC.
 
+A PIC16 MCU processor is checking for light changes, sleeping time and waking-up the Arduino 
+to calculate the time and update the E-paper Display.
+
 !!! e-Ink displays are using a lot of power when updated !!!
 
 Note:
 PCB can be found in folder: pcb-layout of this github
-Code for the PIC can be found here: https://github.com/happychriss/MyWatchPic16
+Code for the PIC can be found here: https://github.com/happychriss/MCW_PIC16MCU
 
 ## Features
 * Time is displayed as text in German, e.g. "Es ist Viertel vor Acht" and updates every 5min
@@ -31,3 +34,8 @@ Code for the PIC can be found here: https://github.com/happychriss/MyWatchPic16
 
 ## ToDo
 * Build in Alarm Clock
+* Build a nice case
+
+## Some pictures
+You find more information here:
+https://44-2.de/mcw-most-complicated-watch/
